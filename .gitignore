@@ -1,0 +1,54 @@
+# Ignore LFW dataset images
+/data/lfw/*
+
+# Ignore Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+.env/
+.venv/
+env/
+venv/
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and local files
+*.log
+*.sqlite3
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Ignore pip environment files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Ignore Python debug output
+*.prof
+*.out
+
+# Ignore temporary files
+*.tmp
