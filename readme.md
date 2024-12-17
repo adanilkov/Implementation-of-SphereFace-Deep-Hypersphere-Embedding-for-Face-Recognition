@@ -12,4 +12,4 @@ Place LFW data in `./data` following
 
 To run the code, use `python main.py`. Default using GPU 0.
 
-This implementation gets 65.80% on LFW dataset.
+This implementation gets 72.30% on LFW dataset.
